@@ -27,4 +27,8 @@ struct ContentView: View {
         .background(Color(hex: "0D1117"))
         .foregroundColor(Color(hex: "C9D1D9"))
     }
+}
+
+#Preview {
+    ContentView()
 } 

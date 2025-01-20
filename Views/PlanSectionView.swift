@@ -37,4 +37,8 @@ struct PlanSectionView: View {
             }
         }
     }
+}
+
+#Preview {
+    PlanSectionView(viewModel: WorkoutViewModel())
 } 

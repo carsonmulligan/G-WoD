@@ -72,4 +72,8 @@ struct ActivityLogSectionView: View {
         default: return ""
         }
     }
+}
+
+#Preview {
+    ActivityLogSectionView(viewModel: WorkoutViewModel())
 } 

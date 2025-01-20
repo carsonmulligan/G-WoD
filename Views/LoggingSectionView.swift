@@ -46,4 +46,14 @@ struct LoggingSectionView: View {
         .background(Color.black.opacity(0.3))
         .cornerRadius(8)
     }
+}
+
+#Preview {
+    LoggingSectionView(
+        viewModel: WorkoutViewModel(),
+        exerciseName: .constant(""),
+        notes: .constant(""),
+        weight: .constant(""),
+        reps: .constant(1)
+    )
 } 
